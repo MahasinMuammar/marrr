@@ -458,13 +458,13 @@ footer .fab {
   }
 
   #menu-icon {
+    position: absolute;
     top: 15px;
     left: 15px;
     width: 40px;
     height: 40px;
     color: #000;
     font-size: 28px;
-    position: absolute;
   }
 }
 

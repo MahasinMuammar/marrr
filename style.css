@@ -1,0 +1,481 @@
+body {
+  font-size: 12px;
+  font-family: "GothamRounded", sans-serif;
+}
+
+/**
+ * HEADER
+ */
+
+header {
+  top: 0;
+  z-index: 10;
+  position: sticky;
+  background-color: #fff;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.header-menu img {
+  max-height: 60px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.header-menu a {
+  font-family: "GothamBook";
+  height: 100%;
+  display: flex;
+  color: #000;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.mobile-header-menu {
+  display: none;
+}
+
+.bg-inner {
+  -webkit-box-shadow: inset 10px 10px 300px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: inset 10px 10px 300px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: inset 10px 10px 300px 0 rgba(0, 0, 0, 0.1);
+}
+
+.bg-inner-top-radius {
+  overflow: hidden;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+}
+
+.bg-inner-bottom-radius {
+  overflow: hidden;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
+/**
+ * HOMEPAGE
+ */
+.home-product-swiper {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.home-product-swiper h2 {
+  font-size: 3rem;
+  margin-bottom: 4rem;
+  font-family: "GothamBook";
+}
+
+.home-product-swiper .swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 250px;
+  height: auto;
+}
+
+.home-product-swiper img {
+  display: block;
+  width: 100%;
+}
+
+.product-title-pointer {
+  font-size: 38px;
+}
+
+.home-product-swiper h2 {
+  font-size: 38px;
+}
+
+.container-why {
+  -webkit-box-shadow: inset 10px 10px 300px -200px rgba(0, 0, 0, 0.8);
+  -moz-box-shadow: inset 10px 10px 300px -200px rgba(0, 0, 0, 0.8);
+  box-shadow: inset 10px 10px 300px -200px rgba(0, 0, 0, 0.8);
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
+.container-why h2 {
+  font-family: "GothamProBlack";
+}
+
+.home-why h2 {
+  font-family: "GothamProBlack";
+}
+
+.home-why img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 1rem;
+}
+
+.home-why .col-md-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 13px;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.home-why .col-md-4 > div {
+  max-width: 250px;
+}
+
+.home-info-yard {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  background-color: rgba(99, 142, 41, 0.75);
+  font-size: 28px;
+  color: #fff;
+}
+
+.home-info-yard strong {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+.home-info-yard span {
+  font-size: 5rem;
+}
+
+.home-info-plantation {
+  background-color: rgba(99, 142, 41);
+}
+
+.home-timeline img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 1rem;
+}
+
+.home-timeline .col-md-3,
+.home-timeline .col-md-4 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.home-career h2 {
+  font-family: "GothamProBlack";
+}
+
+.home-career .career-item-wrapper {
+  padding: 10px;
+}
+
+.home-career .career-item {
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+  padding: 2rem;
+  font-size: 14px;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  color: #000;
+}
+
+.home-career .career-item-link {
+  cursor: pointer;
+  text-decoration: none;
+  display: block;
+  color: #000;
+}
+
+.home-career .career-item h6 {
+  font-family: "GothamProBlack";
+}
+
+.home-career img {
+  height: 150px;
+  width: auto;
+}
+
+footer .fab {
+  color: #008c43;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  left: 50px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  margin-top: -25px;
+  font-size: 30px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-image: none;
+}
+
+.swiper-button-next {
+  left: auto;
+  right: 50px;
+  border-radius: 0;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  border: 1px solid #000 !important;
+  opacity: 1;
+  background-color: #fff;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #000;
+}
+
+.investasi-title {
+  margin-right: 2rem;
+  line-height: 2rem;
+}
+
+.investasi-title strong {
+  font-size: 3rem;
+  font-family: "GothamProBlack";
+}
+
+.investasi-title div {
+  font-size: 23px;
+  font-family: "GothamBook";
+}
+
+.investasi-price {
+  line-height: 2rem;
+}
+
+.investasi-price span {
+  font-size: 6rem;
+  font-weight: bold;
+  font-family: "GothamProBlack";
+}
+
+.investasi-price sup {
+  font-size: 2.6rem;
+  font-family: "GothamProBlack";
+}
+
+.home-timeline-title strong {
+  font-size: 3rem;
+  font-family: "GothamProBlack";
+  line-height: 3rem;
+}
+
+.home-timeline-title div {
+  font-size: 3rem;
+  font-family: "GothamBook";
+  font-weight: 300;
+  line-height: 3rem;
+}
+
+.home-timeline-title .opening div {
+  line-height: 50px;
+}
+
+.locations h2 {
+  font-family: "GothamProBlack";
+}
+
+.locations input {
+  font-family: sans-serif;
+}
+
+.store-item {
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.store-item h6 {
+  font-size: 1.25rem;
+  margin-bottom: 6px;
+}
+
+.menu-items {
+  display: none;
+}
+
+.menu-items a {
+  color: #000;
+  display: block;
+  font-family: "GothamBook";
+  line-height: 3rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-top: 1px solid #ccc;
+}
+
+.page-header {
+  text-align: center;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+/**
+ * Responsive layouts
+ * @param  {[type]} max-width: 575.98px      [description]
+ * @return {[type]}            [description]
+ */
+@media (max-width: 575.98px) {
+  .mobile-p-0 {
+    padding: 0;
+  }
+
+  .home-product-swiper h2 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .product-title-pointer {
+    font-size: 2rem;
+  }
+
+  .vision-mission-logo {
+    margin-bottom: 2rem;
+  }
+
+  .home-info-plantation .col-auto {
+    width: 100%;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid #ccc;
+  }
+
+  .bg-inner-top-radius {
+    overflow: hidden;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+  }
+
+  .bg-inner-bottom-radius {
+    overflow: hidden;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+  }
+
+  .home-why h2 {
+    font-size: 1.2rem;
+  }
+
+  .investasi {
+    flex-direction: column;
+  }
+
+  .investasi-title {
+    margin-right: 0px;
+    text-align: center;
+  }
+
+  .investasi-title strong {
+    font-size: 40px;
+    font-family: "GothamProBlack";
+  }
+
+  .investasi-title div {
+    font-size: 20px;
+    font-family: "GothamBook";
+  }
+
+  .investasi-price {
+    padding-top: 2rem;
+    line-height: 7rem;
+  }
+
+  .home-timeline-title {
+    text-align: center !important;
+  }
+
+  .home-timeline-title strong {
+    font-size: 36px;
+    line-height: 1em;
+  }
+
+  .home-timeline-title div {
+    text-align: center !important;
+    font-size: 36px;
+    line-height: 1em;
+  }
+
+  .home-timeline-title .opening div {
+    line-height: 1em;
+  }
+
+  .home-info-yard {
+    font-size: 20px;
+  }
+
+  .home-info-yard .col-auto {
+    margin-top: 1rem;
+  }
+
+  .home-info-yard span {
+    font-size: 4rem;
+  }
+
+  footer .col-lg-3 {
+    padding-left: 45px;
+    padding-right: 45px;
+    text-align: center !important;
+    margin-bottom: 8px;
+  }
+
+  .header-menu {
+    display: none;
+  }
+
+  .mobile-header-menu {
+    display: block;
+  }
+
+  .mobile-header-menu img {
+    max-height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .locations {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .store-item img {
+    margin-bottom: 15px;
+  }
+
+  .locations input {
+    margin-bottom: 15px;
+  }
+
+  #menu-icon {
+    top: 15px;
+    left: 15px;
+    width: 40px;
+    height: 40px;
+    color: #000;
+    font-size: 28px;
+    position: absolute;
+  }
+}
+
+@media (max-width: 767.98px) {
+}
+
+@media (max-width: 991.98px) {
+}
+
+@media (max-width: 1199.98px) {
+}
+
+@media (max-width: 1399.98px) {
+}
